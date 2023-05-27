@@ -10,7 +10,7 @@ packages = [{include = "python_telegram_bot_template"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 python-telegram-bot = "^20.3"
-pydantic = "^1.10.8"
+pydantic = {extras = ["dotenv"], version = "^1.10.8"}
 
 
 [tool.poetry.group.dev.dependencies]
